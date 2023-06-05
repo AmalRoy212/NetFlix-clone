@@ -13,7 +13,7 @@ function RowPost(props) {
     }).catch((err)=>{
       // alert(err+'Sorry');
     })
-  },[])
+  })
   //youtube modification options from react youtube module
   const opts = {
     height: '390',
